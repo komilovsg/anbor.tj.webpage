@@ -75,8 +75,8 @@ export const Form = () => {
               Связаться с нами
             </h2>
             <p className="text-xl md:text-sm">
-              Оставьте заявку и мы свяжемся с вами, чтобы обсудить детали вашего
-              проекта
+              Оставьте нам ваше сообщение и мы свяжемся с вами, ответим на все
+              ваши вопросы
             </p>
           </div>
           <section className="flex w-[40%] flex-col gap-8 md:w-full md:gap-6">
@@ -145,7 +145,7 @@ export const Form = () => {
               className="!bg-blue/90 !py-4 !text-[16px] !text-white md:rounded-xl"
               disabled={isDisabled}
             >
-              Отправить заявку
+              Отправить
             </Button>
           </section>
         </div>
